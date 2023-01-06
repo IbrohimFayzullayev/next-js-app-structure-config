@@ -1,0 +1,35 @@
+@import "./vars";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: $font;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+  
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+/* Blocks */
+@import "./main.scss";
